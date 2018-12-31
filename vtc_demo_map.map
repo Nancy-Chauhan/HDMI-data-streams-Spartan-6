@@ -1,0 +1,90 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Map Application Log File for Design 'vtc_demo'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o vtc_demo_map.ncd vtc_demo.ngd vtc_demo.pcf 
+Target Device  : xc6slx45
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Mon Dec 31 16:23:33 2018
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+WARNING:Timing:3159 - The DCM, PCLK_GEN_INST, has the attribute DFS_OSCILLATOR_MODE not set to PHASE_FREQ_LOCK. No phase relationship exists
+   between the input clock and CLKFX or CLKFX180 outputs of this DCM. Data paths between these clock domains must be constrained using
+   FROM/TO constraints.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 5 secs 
+Total CPU  time at the beginning of Placer: 5 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:73ebaa50) REAL time: 6 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:73ebaa50) REAL time: 7 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:73ebaa50) REAL time: 7 secs 
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+(Checksum:dc85d9c7) REAL time: 23 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:dc85d9c7) REAL time: 23 secs 
+
+Phase 6.30  Global Clock Region Assignment
+Phase 6.30  Global Clock Region Assignment (Checksum:dc85d9c7) REAL time: 23 secs 
+
+Phase 7.3  Local Placement Optimization
+Phase 7.3  Local Placement Optimization (Checksum:dc85d9c7) REAL time: 23 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:dc85d9c7) REAL time: 23 secs 
+
+Phase 9.8  Global Placement
+.....................
+..........................................................................................................................................................................................
+..........................................................................................................................................................................
+............................
+Phase 9.8  Global Placement (Checksum:863907a1) REAL time: 25 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:863907a1) REAL time: 25 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:c891ea05) REAL time: 26 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:c891ea05) REAL time: 26 secs 
+
+Phase 13.34  Placement Validation
+Phase 13.34  Placement Validation (Checksum:7b2d1eb9) REAL time: 26 secs 
+
+Total REAL time to Placer completion: 27 secs 
+Total CPU  time to Placer completion: 27 secs 
+Running post-placement packing...
+Writing output files...
+ERROR:PhysDesignRules:2502 - Issue with pin connections and/or configuration on
+   block:<sysclk_div>:<BUFIO2_BUFIO2>.  BUFIO2 has an invalid setting of DIVIDE
+   by 2. This setting is not supported. For more information please see Answer
+   Record 56113.
+ERROR:Pack:1642 - Errors in physical DRC.
+
+Mapping completed.
+See MAP report file "vtc_demo_map.mrp" for details.
+Problem encountered during the packing phase.
+
+Design Summary
+--------------
+Number of errors   :   2
+Number of warnings :   1

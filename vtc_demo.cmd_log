@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.xst" -ofn "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.syr" 
+xst -intstyle ise -ifn "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.xst" -ofn "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.syr" 
+xst -intstyle ise -ifn "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.xst" -ofn "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.syr" 
+xst -intstyle ise -ifn "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.xst" -ofn "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 vtc_demo.ngc vtc_demo.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vtc_demo_map.ncd vtc_demo.ngd vtc_demo.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/nancy/Desktop/xapp495/dvi_demo/ucf/vtc_demo.ucf -p xc6slx45-csg324-3 vtc_demo.ngc vtc_demo.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vtc_demo_map.ncd vtc_demo.ngd vtc_demo.pcf 
+xst -intstyle ise -ifn "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.xst" -ofn "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/nancy/Desktop/xapp495/dvi_demo/ucf/vtc_demo.ucf -p xc6slx45-csg324-3 vtc_demo.ngc vtc_demo.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vtc_demo_map.ncd vtc_demo.ngd vtc_demo.pcf 
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vtc_demo_map.ncd vtc_demo.ngd vtc_demo.pcf 
