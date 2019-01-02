@@ -74,8 +74,49 @@ module vtc_demo (
 
   IBUF sysclk_buf (.I(SYS_CLK), .O(sysclk));
 
-  BUFIO2 #(.DIVIDE_BYPASS("FALSE"), .DIVIDE(2))
-  sysclk_div (.DIVCLK(clk50m), .IOCLK(), .SERDESSTROBE(), .I(sysclk));
+  wire clkfb;
+
+  DCM_SP #(
+     .CLKDV_DIVIDE(2.0),
+     .CLKFX_DIVIDE(1),
+     .CLKFX_MULTIPLY(4),
+     .CLKIN_DIVIDE_BY_2("TRUE"),
+     .CLKIN_PERIOD(10.0),       
+     .CLKOUT_PHASE_SHIFT("NONE"),
+     .CLK_FEEDBACK("1X"),        
+     .DESKEW_ADJUST("SYSTEM_SYNCHRONOUS"),
+     .DFS_FREQUENCY_MODE("LOW"),         
+     .DLL_FREQUENCY_MODE("LOW"),         
+     .DSS_MODE("NONE"),                  
+     .DUTY_CYCLE_CORRECTION("TRUE"),     
+     .FACTORY_JF(16'hc080),              
+     .PHASE_SHIFT(0),                    
+     .STARTUP_WAIT("FALSE")              
+   )
+   DCM_SP_inst (
+     .CLK0(clk50m),
+     .CLK180(),    
+     .CLK270(),    
+     .CLK2X(),     
+     .CLK2X180(),  
+     .CLK90(),     
+     .CLKDV(),     
+     .CLKFX(),     
+     .CLKFX180(),  
+     .LOCKED(),    
+     .PSDONE(),    
+     .STATUS(),    
+     .CLKFB(clkfb),
+     .CLKIN(sysclk),
+     .DSSEN(1'b0),  
+     .PSCLK(1'b0),  
+     .PSEN(1'b0),   
+     .PSINCDEC(1'b0),
+     .RST(1'b0)      
+  );
+  
+  BUFIO2FB #( .DIVIDE_BYPASS("TRUE") )
+  BUFIO2FB_inst ( .O(clkfb), .I(clk50m) );
 
   BUFG clk50m_bufgbufg (.I(clk50m), .O(clk50m_bufg));
 

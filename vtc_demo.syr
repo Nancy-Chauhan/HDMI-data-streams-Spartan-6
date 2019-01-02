@@ -1,21 +1,18 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to xst/projnav.tmp
+--> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
  
---> 
-Parameter xsthdpdir set to xst
+--> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
  
---> 
-Reading design: vtc_demo.prj
+--> Reading design: vtc_demo.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -108,33 +105,33 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/DRAM16XN.v" into library work
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\DRAM16XN.v" into library work
 Parsing module <DRAM16XN>.
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/encode.v" into library work
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\encode.v" into library work
 Parsing module <encode>.
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/convert_30to15_fifo.v" into library work
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\convert_30to15_fifo.v" into library work
 Parsing module <convert_30to15_fifo>.
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/timing.v" into library work
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\timing.v" into library work
 Parsing module <timing>.
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/synchro.v" into library work
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\synchro.v" into library work
 Parsing module <synchro>.
-WARNING:HDLCompiler:924 - "/home/nancy/Desktop/HDMI-Color-Bar/synchro.v" Line 87: Attribute target identifier fdb not found in this scope
-WARNING:HDLCompiler:924 - "/home/nancy/Desktop/HDMI-Color-Bar/synchro.v" Line 82: Attribute target identifier fda not found in this scope
-WARNING:HDLCompiler:924 - "/home/nancy/Desktop/HDMI-Color-Bar/synchro.v" Line 83: Attribute target identifier fdb not found in this scope
-WARNING:HDLCompiler:924 - "/home/nancy/Desktop/HDMI-Color-Bar/synchro.v" Line 84: Attribute target identifier fda not found in this scope
-WARNING:HDLCompiler:924 - "/home/nancy/Desktop/HDMI-Color-Bar/synchro.v" Line 85: Attribute target identifier fdb not found in this scope
-WARNING:HDLCompiler:924 - "/home/nancy/Desktop/HDMI-Color-Bar/synchro.v" Line 86: Attribute target identifier fda not found in this scope
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/serdes_n_to_1.v" into library work
+WARNING:HDLCompiler:924 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\synchro.v" Line 87: Attribute target identifier fdb not found in this scope
+WARNING:HDLCompiler:924 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\synchro.v" Line 82: Attribute target identifier fda not found in this scope
+WARNING:HDLCompiler:924 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\synchro.v" Line 83: Attribute target identifier fdb not found in this scope
+WARNING:HDLCompiler:924 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\synchro.v" Line 84: Attribute target identifier fda not found in this scope
+WARNING:HDLCompiler:924 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\synchro.v" Line 85: Attribute target identifier fdb not found in this scope
+WARNING:HDLCompiler:924 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\synchro.v" Line 86: Attribute target identifier fda not found in this scope
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\serdes_n_to_1.v" into library work
 Parsing module <serdes_n_to_1>.
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/hdclrbar.v" into library work
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\hdclrbar.v" into library work
 Parsing module <hdcolorbar>.
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/dvi_encoder.v" into library work
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\dvi_encoder.v" into library work
 Parsing module <dvi_encoder>.
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/debnce.v" into library work
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\debnce.v" into library work
 Parsing module <debnce>.
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/dcmspi.v" into library work
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\dcmspi.v" into library work
 Parsing module <dcmspi>.
-Analyzing Verilog file "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.v" into library work
+Analyzing Verilog file "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\vtc_demo.v" into library work
 Parsing module <vtc_demo>.
 
 =========================================================================
@@ -145,7 +142,9 @@ Elaborating module <vtc_demo>.
 
 Elaborating module <IBUF>.
 
-Elaborating module <BUFIO2(DIVIDE_BYPASS="FALSE",DIVIDE=2)>.
+Elaborating module <DCM_SP(CLKDV_DIVIDE=2.0,CLKFX_DIVIDE=1,CLKFX_MULTIPLY=4,CLKIN_DIVIDE_BY_2="TRUE",CLKIN_PERIOD=10.0,CLKOUT_PHASE_SHIFT="NONE",CLK_FEEDBACK="1X",DESKEW_ADJUST="SYSTEM_SYNCHRONOUS",DFS_FREQUENCY_MODE="LOW",DLL_FREQUENCY_MODE="LOW",DSS_MODE="NONE",DUTY_CYCLE_CORRECTION="TRUE",FACTORY_JF=16'b1100000010000000,PHASE_SHIFT=0,STARTUP_WAIT="FALSE")>.
+
+Elaborating module <BUFIO2FB(DIVIDE_BYPASS="TRUE")>.
 
 Elaborating module <BUFG>.
 
@@ -158,10 +157,10 @@ Elaborating module <FDC>.
 Elaborating module <debnce>.
 
 Elaborating module <SRL16E(INIT=16'b0)>.
-WARNING:HDLCompiler:413 - "/home/nancy/Desktop/HDMI-Color-Bar/debnce.v" Line 114: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\debnce.v" Line 114: Result of 17-bit expression is truncated to fit in 16-bit target.
 
 Elaborating module <dcmspi>.
-WARNING:HDLCompiler:1127 - "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.v" Line 221: Assignment to busy ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\vtc_demo.v" Line 262: Assignment to busy ignored, since the identifier is never used
 
 Elaborating module <DCM_CLKGEN(CLKFX_DIVIDE=21,CLKFX_MULTIPLY=31,CLKIN_PERIOD=20.0)>.
 
@@ -176,8 +175,8 @@ Elaborating module <FDP>.
 Elaborating module <timing>.
 
 Elaborating module <hdcolorbar>.
-WARNING:HDLCompiler:189 - "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.v" Line 537: Size mismatch in connection of port <i_hcnt>. Formal port size is 12-bit while actual signal size is 11-bit.
-WARNING:HDLCompiler:189 - "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.v" Line 538: Size mismatch in connection of port <i_vcnt>. Formal port size is 12-bit while actual signal size is 11-bit.
+WARNING:HDLCompiler:189 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\vtc_demo.v" Line 578: Size mismatch in connection of port <i_hcnt>. Formal port size is 12-bit while actual signal size is 11-bit.
+WARNING:HDLCompiler:189 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\vtc_demo.v" Line 579: Size mismatch in connection of port <i_vcnt>. Formal port size is 12-bit while actual signal size is 11-bit.
 
 Elaborating module <dvi_encoder>.
 
@@ -210,7 +209,7 @@ Elaborating module <OBUFDS>.
 =========================================================================
 
 Synthesizing Unit <vtc_demo>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\vtc_demo.v".
         SW_VGA = 4'b0000
         SW_SVGA = 4'b0001
         SW_XGA = 4'b0011
@@ -256,7 +255,7 @@ Synthesizing Unit <vtc_demo>.
         VFNPRCH_VGA = 11'b00000001011
         HBKPRCH_VGA = 11'b00000110000
         VBKPRCH_VGA = 11'b00000011111
-INFO:Xst:3210 - "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.v" line 213: Output port <BUSY> of the instance <dcmspi_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\vtc_demo.v" line 254: Output port <BUSY> of the instance <dcmspi_0> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <switch>.
     Found 8-bit register for signal <pclk_M>.
     Found 8-bit register for signal <pclk_D>.
@@ -275,28 +274,28 @@ INFO:Xst:3210 - "/home/nancy/Desktop/HDMI-Color-Bar/vtc_demo.v" line 213: Output
 Unit <vtc_demo> synthesized.
 
 Synthesizing Unit <synchro_1>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/synchro.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\synchro.v".
         INITIALIZE = "LOGIC0"
     Summary:
 	no macro.
 Unit <synchro_1> synthesized.
 
 Synthesizing Unit <debnce>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/debnce.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\debnce.v".
         SATISFY = 16'b1111111111111111
     Found 1-bit register for signal <transition>.
     Found 1-bit register for signal <cntr_en>.
     Found 16-bit register for signal <ctr>.
     Found 1-bit register for signal <debnced>.
     Found 1-bit register for signal <sync_q>.
-    Found 16-bit adder for signal <ctr[15]_GND_8_o_add_4_OUT> created at line 114.
+    Found 16-bit adder for signal <ctr[15]_GND_9_o_add_4_OUT> created at line 114.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  20 D-type flip-flop(s).
 Unit <debnce> synthesized.
 
 Synthesizing Unit <dcmspi>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/dcmspi.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\dcmspi.v".
         TCQ = 1
     Found 1-bit register for signal <dfslckd_rising>.
     Found 1-bit register for signal <BUSY>.
@@ -312,18 +311,18 @@ Synthesizing Unit <dcmspi>.
 Unit <dcmspi> synthesized.
 
 Synthesizing Unit <synchro_2>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/synchro.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\synchro.v".
         INITIALIZE = "LOGIC1"
     Summary:
 	no macro.
 Unit <synchro_2> synthesized.
 
 Synthesizing Unit <timing>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/timing.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\timing.v".
     Found 11-bit register for signal <vpos_cnt>.
     Found 11-bit register for signal <hpos_cnt>.
     Found 11-bit adder for signal <hpos_cnt[10]_hpos_cnt[10]_mux_2_OUT> created at line 87.
-    Found 11-bit adder for signal <vpos_cnt[10]_GND_16_o_add_6_OUT> created at line 101.
+    Found 11-bit adder for signal <vpos_cnt[10]_GND_17_o_add_6_OUT> created at line 101.
     Found 11-bit comparator lessequal for signal <n0008> created at line 112
     Found 11-bit comparator lessequal for signal <n0013> created at line 115
     Found 11-bit comparator greater for signal <hblnk> created at line 137
@@ -339,7 +338,7 @@ Synthesizing Unit <timing>.
 Unit <timing> synthesized.
 
 Synthesizing Unit <hdcolorbar>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/hdclrbar.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\hdclrbar.v".
         Lvl_100 = 8'b11111111
         Lvl_75 = 8'b10111111
         Lvl_40 = 8'b01100110
@@ -380,9 +379,9 @@ Synthesizing Unit <hdcolorbar>.
     Found 8-bit register for signal <o_r>.
     Found 8-bit register for signal <o_g>.
     Found 8-bit register for signal <o_b>.
-    Found 8-bit adder for signal <o_r[7]_GND_17_o_add_147_OUT> created at line 412.
-    Found 8-bit adder for signal <o_g[7]_GND_17_o_add_150_OUT> created at line 413.
-    Found 8-bit adder for signal <o_b[7]_GND_17_o_add_153_OUT> created at line 414.
+    Found 8-bit adder for signal <o_r[7]_GND_18_o_add_147_OUT> created at line 412.
+    Found 8-bit adder for signal <o_g[7]_GND_18_o_add_150_OUT> created at line 413.
+    Found 8-bit adder for signal <o_b[7]_GND_18_o_add_153_OUT> created at line 414.
     Found 8-bit 4-to-1 multiplexer for signal <_n0429> created at line 308.
     Found 8-bit 4-to-1 multiplexer for signal <_n0459> created at line 308.
     Found 8-bit 4-to-1 multiplexer for signal <_n0489> created at line 308.
@@ -416,13 +415,13 @@ Synthesizing Unit <hdcolorbar>.
 Unit <hdcolorbar> synthesized.
 
 Synthesizing Unit <dvi_encoder>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/dvi_encoder.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\dvi_encoder.v".
     Summary:
 	no macro.
 Unit <dvi_encoder> synthesized.
 
 Synthesizing Unit <encode>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/encode.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\encode.v".
         CTRLTOKEN0 = 10'b1101010100
         CTRLTOKEN1 = 10'b0010101011
         CTRLTOKEN2 = 10'b0101010100
@@ -440,7 +439,7 @@ Synthesizing Unit <encode>.
     Found 1-bit register for signal <c1_reg>.
     Found 9-bit register for signal <q_m_reg>.
     Found 4-bit register for signal <n1d>.
-    Found 4-bit subtractor for signal <PWR_19_o_BUS_0017_sub_29_OUT> created at line 110.
+    Found 4-bit subtractor for signal <PWR_20_o_BUS_0017_sub_29_OUT> created at line 110.
     Found 5-bit subtractor for signal <n0233> created at line 169.
     Found 5-bit subtractor for signal <n0235> created at line 175.
     Found 5-bit subtractor for signal <n0236> created at line 175.
@@ -449,22 +448,22 @@ Synthesizing Unit <encode>.
     Found 2-bit adder for signal <n0204[1:0]> created at line 109.
     Found 3-bit adder for signal <n0207[2:0]> created at line 109.
     Found 5-bit adder for signal <n0232> created at line 169.
-    Found 5-bit adder for signal <cnt[4]_GND_19_o_add_47_OUT> created at line 169.
-    Found 5-bit adder for signal <cnt[4]_GND_19_o_add_50_OUT> created at line 175.
+    Found 5-bit adder for signal <cnt[4]_GND_20_o_add_47_OUT> created at line 169.
+    Found 5-bit adder for signal <cnt[4]_GND_20_o_add_50_OUT> created at line 175.
     Found 4-bit adder for signal <_n0248> created at line 66.
     Found 4-bit adder for signal <_n0249> created at line 66.
     Found 4-bit adder for signal <_n0250> created at line 66.
     Found 4-bit adder for signal <_n0251> created at line 66.
-    Found 4-bit adder for signal <BUS_0003_GND_19_o_add_7_OUT> created at line 66.
+    Found 4-bit adder for signal <BUS_0003_GND_20_o_add_7_OUT> created at line 66.
     Found 4-bit adder for signal <_n0253> created at line 109.
     Found 4-bit adder for signal <_n0254> created at line 109.
     Found 4-bit adder for signal <_n0255> created at line 109.
     Found 4-bit adder for signal <_n0256> created at line 109.
-    Found 4-bit adder for signal <BUS_0010_GND_19_o_add_20_OUT> created at line 109.
-    Found 5-bit adder for signal <cnt[4]_GND_19_o_sub_41_OUT> created at line 162.
-    Found 5-bit adder for signal <cnt[4]_GND_19_o_sub_43_OUT> created at line 162.
-    Found 4x10-bit Read Only RAM for signal <c1_reg_PWR_19_o_wide_mux_53_OUT>
-    Found 4-bit comparator greater for signal <GND_19_o_n1d[3]_LessThan_11_o> created at line 77
+    Found 4-bit adder for signal <BUS_0010_GND_20_o_add_20_OUT> created at line 109.
+    Found 5-bit adder for signal <cnt[4]_GND_20_o_sub_41_OUT> created at line 162.
+    Found 5-bit adder for signal <cnt[4]_GND_20_o_sub_43_OUT> created at line 162.
+    Found 4x10-bit Read Only RAM for signal <c1_reg_PWR_20_o_wide_mux_53_OUT>
+    Found 4-bit comparator greater for signal <GND_20_o_n1d[3]_LessThan_11_o> created at line 77
     Found 4-bit comparator equal for signal <n1q_m[3]_n0q_m[3]_equal_33_o> created at line 121
     Found 4-bit comparator greater for signal <n0q_m[3]_n1q_m[3]_LessThan_34_o> created at line 125
     Found 4-bit comparator greater for signal <n1q_m[3]_n0q_m[3]_LessThan_35_o> created at line 125
@@ -477,7 +476,7 @@ Synthesizing Unit <encode>.
 Unit <encode> synthesized.
 
 Synthesizing Unit <convert_30to15_fifo>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/convert_30to15_fifo.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\convert_30to15_fifo.v".
         ADDR0 = 4'b0000
         ADDR1 = 4'b0001
         ADDR2 = 4'b0010
@@ -495,7 +494,7 @@ Synthesizing Unit <convert_30to15_fifo>.
         ADDR14 = 4'b1110
         ADDR15 = 4'b1111
     Set property "ASYNC_REG = TRUE" for instance <fdp_rst>.
-INFO:Xst:3210 - "/home/nancy/Desktop/HDMI-Color-Bar/convert_30to15_fifo.v" line 64: Output port <O_DATA_OUT> of the instance <fifo_u> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\convert_30to15_fifo.v" line 64: Output port <O_DATA_OUT> of the instance <fifo_u> is unconnected or connected to loadless signal.
     Found 16x4-bit Read Only RAM for signal <wa_d>
     Found 16x4-bit Read Only RAM for signal <ra_d>
     Summary:
@@ -504,14 +503,14 @@ INFO:Xst:3210 - "/home/nancy/Desktop/HDMI-Color-Bar/convert_30to15_fifo.v" line 
 Unit <convert_30to15_fifo> synthesized.
 
 Synthesizing Unit <DRAM16XN>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/DRAM16XN.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\DRAM16XN.v".
         data_width = 30
     Summary:
 	no macro.
 Unit <DRAM16XN> synthesized.
 
 Synthesizing Unit <serdes_n_to_1>.
-    Related source file is "/home/nancy/Desktop/HDMI-Color-Bar/serdes_n_to_1.v".
+    Related source file is "C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\serdes_n_to_1.v".
         SF = 5
     Summary:
 	no macro.
@@ -616,11 +615,11 @@ The following registers are absorbed into counter <ctr>: 1 register on signal <c
 Unit <debnce> synthesized (advanced).
 
 Synthesizing (advanced) Unit <encode>.
-	The following adders/subtractors are grouped into adder tree <Madd_BUS_0010_GND_19_o_add_20_OUT_Madd1> :
- 	<Madd__n0253> in block <encode>, 	<Madd__n0254> in block <encode>, 	<Madd__n0256_Madd> in block <encode>, 	<Madd_n0204[1:0]> in block <encode>, 	<Madd_BUS_0010_GND_19_o_add_20_OUT_Madd> in block <encode>.
-	The following adders/subtractors are grouped into adder tree <Madd_BUS_0003_GND_19_o_add_7_OUT_Madd1> :
- 	<Madd__n0248> in block <encode>, 	<Madd__n0249> in block <encode>, 	<Madd__n0251_Madd> in block <encode>, 	<Madd_n0183[1:0]> in block <encode>, 	<Madd_BUS_0003_GND_19_o_add_7_OUT_Madd> in block <encode>.
-INFO:Xst:3231 - The small RAM <Mram_c1_reg_PWR_19_o_wide_mux_53_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+	The following adders/subtractors are grouped into adder tree <Madd_BUS_0010_GND_20_o_add_20_OUT_Madd1> :
+ 	<Madd__n0253> in block <encode>, 	<Madd__n0254> in block <encode>, 	<Madd__n0256_Madd> in block <encode>, 	<Madd_n0204[1:0]> in block <encode>, 	<Madd_BUS_0010_GND_20_o_add_20_OUT_Madd> in block <encode>.
+	The following adders/subtractors are grouped into adder tree <Madd_BUS_0003_GND_20_o_add_7_OUT_Madd1> :
+ 	<Madd__n0248> in block <encode>, 	<Madd__n0249> in block <encode>, 	<Madd__n0251_Madd> in block <encode>, 	<Madd_n0183[1:0]> in block <encode>, 	<Madd_BUS_0003_GND_20_o_add_7_OUT_Madd> in block <encode>.
+INFO:Xst:3231 - The small RAM <Mram_c1_reg_PWR_20_o_wide_mux_53_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -631,7 +630,7 @@ INFO:Xst:3231 - The small RAM <Mram_c1_reg_PWR_19_o_wide_mux_53_OUT> will be imp
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3217 - HDL ADVISOR - Register <dout> currently described with an asynchronous reset, could be combined with distributed RAM <Mram_c1_reg_PWR_19_o_wide_mux_53_OUT> for implementation on block RAM resources if you made this reset synchronous instead.
+INFO:Xst:3217 - HDL ADVISOR - Register <dout> currently described with an asynchronous reset, could be combined with distributed RAM <Mram_c1_reg_PWR_20_o_wide_mux_53_OUT> for implementation on block RAM resources if you made this reset synchronous instead.
 Unit <encode> synthesized (advanced).
 
 Synthesizing (advanced) Unit <timing>.
@@ -813,14 +812,15 @@ Primitive and Black Box Usage:
 #      SRLC16E                     : 3
 # Clock Buffers                    : 3
 #      BUFG                        : 3
-# IO Buffers                       : 17
-#      BUFIO2                      : 1
+# IO Buffers                       : 16
 #      IBUF                        : 6
 #      OBUF                        : 6
 #      OBUFDS                      : 4
-# DCMs                             : 1
+# DCMs                             : 2
 #      DCM_CLKGEN                  : 1
-# Others                           : 10
+#      DCM_SP                      : 1
+# Others                           : 11
+#      BUFIO2FB                    : 1
 #      BUFPLL                      : 1
 #      OSERDES2                    : 8
 #      PLL_ADV                     : 1
@@ -875,7 +875,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-SYS_CLK                            | IBUF+BUFIO2+BUFG       | 123   |
+SYS_CLK                            | DCM_SP:CLK0            | 123   |
 PLL_OSERDES/CLKOUT2                | BUFG                   | 55    |
 PLL_OSERDES/CLKOUT1                | BUFG                   | 242   |
 -----------------------------------+------------------------+-------+
@@ -963,8 +963,8 @@ Delay:               5.834ns (Levels of Logic = 5)
      LUT5:I0->O            3   0.203   0.755  enc0/encb/Mmux_q_m<3>111 (enc0/encb/Mmux_q_m<3>11)
      LUT6:I4->O            7   0.203   0.774  enc0/encb/Mmux_q_m<7>11 (enc0/encb/q_m<7>)
      LUT6:I5->O            3   0.205   0.879  enc0/encb/ADDERTREE_INTERNAL_Madd91 (enc0/encb/ADDERTREE_INTERNAL_Madd9)
-     LUT5:I2->O            1   0.205   0.684  enc0/encb/Msub_PWR_19_o_BUS_0017_sub_29_OUT_xor<2>12 (enc0/encb/Msub_PWR_19_o_BUS_0017_sub_29_OUT_xor<2>11)
-     LUT6:I4->O            1   0.203   0.000  enc0/encb/Msub_PWR_19_o_BUS_0017_sub_29_OUT_xor<2>14 (enc0/encb/PWR_19_o_BUS_0017_sub_29_OUT<2>)
+     LUT5:I2->O            1   0.205   0.684  enc0/encb/Msub_PWR_20_o_BUS_0017_sub_29_OUT_xor<2>12 (enc0/encb/Msub_PWR_20_o_BUS_0017_sub_29_OUT_xor<2>11)
+     LUT6:I4->O            1   0.203   0.000  enc0/encb/Msub_PWR_20_o_BUS_0017_sub_29_OUT_xor<2>14 (enc0/encb/PWR_20_o_BUS_0017_sub_29_OUT<2>)
      FD:D                      0.102          enc0/encb/n0q_m_2
     ----------------------------------------
     Total                      5.834ns (1.568ns logic, 4.266ns route)
@@ -1087,7 +1087,7 @@ Offset:              1.161ns (Levels of Logic = 0)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 60 / 52
+  Total number of paths / destination ports: 58 / 50
 -------------------------------------------------------------------------
 Delay:               4.409ns (Levels of Logic = 2)
   Source:            RSTBTN (PAD)
@@ -1137,13 +1137,12 @@ SYS_CLK        |    4.589|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 9.29 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.16 secs
  
 --> 
 
-
-Total memory usage is 400540 kilobytes
+Total memory usage is 264700 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   56 (   0 filtered)
