@@ -74,6 +74,7 @@ module vtc_demo (
 
   IBUF sysclk_buf (.I(SYS_CLK), .O(sysclk));
 
+<<<<<<< HEAD
   wire clkfb;
 
   DCM_SP #(
@@ -117,6 +118,11 @@ module vtc_demo (
   
   BUFIO2FB #( .DIVIDE_BYPASS("TRUE") )
   BUFIO2FB_inst ( .O(clkfb), .I(clk50m) );
+=======
+  //BUFIO2 #(.DIVIDE_BYPASS("FALSE"), .DIVIDE(2))
+  //sysclk_div (.DIVCLK(clk50m), .IOCLK(), .SERDESSTROBE(), .I(sysclk));
+  assign clk50m = sysclk;
+>>>>>>> 1e24ee53c9cc105fd1f51952b9edddf1e3fa6fec
 
   BUFG clk50m_bufgbufg (.I(clk50m), .O(clk50m_bufg));
 
