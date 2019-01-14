@@ -16,7 +16,7 @@ need an HDMI to DVI converter
 
 <strong>Output</strong> 
 
-We see the monitor display the coloured pattern as shown in above fiure. The monitor shows the
+We see the monitor display the coloured pattern as shown in above figure. The monitor shows the
 default colored pattern without any change in switching configurations.
 Using three DIP switches on the board (SW0, SW1, and SW3), the user is able to switch among
 different  screen  modes.   Following  test  pattern  are  observed by  selecting
