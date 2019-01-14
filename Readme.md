@@ -16,7 +16,7 @@ need an HDMI to DVI converter
 
 <strong>Output</strong> 
 
-We see the monitor display the coloured pattern as shown in Figure12.  The monitor shows the
+We see the monitor display the coloured pattern as shown in above fiure. The monitor shows the
 default colored pattern without any change in switching configurations.
 Using three DIP switches on the board (SW0, SW1, and SW3), the user is able to switch among
 different  screen  modes.   Following  test  pattern  are  observed by  selecting
@@ -24,9 +24,9 @@ following switches which display 720p frames configurations :
 1) sw1 = 1, sw0 = 0
 2) sw2=1, sw1=0, sw0=0
 
-https://github.com/Nancy-Chauhan/HDMI-Color-Bar/blob/master/output%202.jpg
+![ HDMI frame display on a computer monitor-1](https://github.com/Nancy-Chauhan/HDMI-Color-Bar/blob/master/output%202.jpg)
 
 Following test pattern are observed by selecting following switches which:
 1) sw2=0, sw1 = 0, sw0 = 1
 
-https://github.com/Nancy-Chauhan/HDMI-Color-Bar/blob/master/output3.jpg
+![ HDMI frame display on a computer monitor-2](https://github.com/Nancy-Chauhan/HDMI-Color-Bar/blob/master/output3.jpg)
