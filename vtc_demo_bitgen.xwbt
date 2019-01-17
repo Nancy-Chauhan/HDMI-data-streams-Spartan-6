@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\vtc_demo.ncd
-OUTFILE=C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED\vtc_demo.bit
-FAMILY=Spartan6
-PART=xc6slx45-3csg324
-WORKINGDIR=C:\Users\emblab\Desktop\Nancy\VTC_DEMO_FIXED
-LICENSE=WebPack
-USER_INFO=211655370_0_0_971
