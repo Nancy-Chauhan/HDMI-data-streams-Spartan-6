@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/emblab/Desktop/Nancy/VTC_DEMO_FIXED/vtc_demo.xst" -ofn "C:/Users/emblab/Desktop/Nancy/VTC_DEMO_FIXED/vtc_demo.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vtc_demo.ucf -p xc6slx45-csg324-3 vtc_demo.ngc vtc_demo.ngd  
-map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vtc_demo_map.ncd vtc_demo.ngd vtc_demo.pcf 
-par -w -intstyle ise -ol high -mt off vtc_demo_map.ncd vtc_demo.ncd vtc_demo.pcf 
-trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vtc_demo.twx vtc_demo.ncd -o vtc_demo.twr vtc_demo.pcf -ucf vtc_demo.ucf 
-bitgen -intstyle ise -f vtc_demo.ut vtc_demo.ncd 
