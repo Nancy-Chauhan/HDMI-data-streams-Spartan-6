@@ -30,3 +30,5 @@ Following test pattern are observed by selecting following switches which:
 1) sw2=0, sw1 = 0, sw0 = 1
 
 ![ HDMI frame display on a computer monitor-2](https://github.com/Nancy-Chauhan/HDMI-Color-Bar/blob/master/output3.jpg)
+
+Blog : https://medium.com/@nancychn1/transmission-of-hdmi-data-streams-to-hdmi-dvi-monitors-via-spartan-6-fpga-295ea28587
